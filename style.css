@@ -1,3 +1,4 @@
+
 /*  import google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
@@ -482,6 +483,21 @@ section .title::after{
 .contact .contact-content .left .icons{
     margin: 10px 0;
 }
+.contact .contact-content .left .icons a{
+    
+
+
+
+
+ color: #000;
+
+
+
+
+
+
+}
+
 .contact .contact-content .row{
     display: flex;
     height: 65px;
@@ -585,12 +601,7 @@ footer span a:hover{
     object-fit: cover;
     border-radius: 500px;
 }
-.about .about-content .left img{
-    height: 380px;
-    width: 380px;
-    object-fit: cover;
-    border-radius: 6px;
-}
+
 }
 @media (max-width: 991px) {
     .max-width{
@@ -610,12 +621,13 @@ footer span a:hover{
         object-fit: cover;
         border-radius: 500px;
     }
-    .about .about-content .left img{
-        height: 620px;
-        width: 620px;
+   .about .about-content .left img{
+        height: 900px;
+        width: 990px;
         object-fit: cover;
         border-radius: 6px;
     }
+ 
     .menu-btn{
         display: block;
         z-index: 999;
@@ -689,12 +701,13 @@ footer span a:hover{
         object-fit: cover;
         border-radius: 500px;
     }
-    .about .about-content .left img{
-        height: 460px;
-        width: 460px;
+   .about .about-content .left img{
+        height: 600px;
+        width: 600px;
         object-fit: cover;
         border-radius: 6px;
     }
+   
     .max-width{
         padding: 0 23px;
     }
@@ -721,6 +734,12 @@ footer span a:hover{
         width: 280px;
         object-fit: cover;
         border-radius: 500px;
+    }
+   .about .about-content .left img{
+        height: 540px;
+        width: 540px;
+        object-fit: cover;
+        border-radius: 6px;
     }
     .home .home-content .text-2{
         font-size: 50px;
@@ -750,4 +769,59 @@ footer span a:hover{
         font-size: 23px;
         line-height: 38px;
     }
+}
+
+@media (max-width: 428px){
+       .home .left img{
+        margin-top: 22px;
+        margin-left: 30%;
+        height: 280px;
+        width: 280px;
+        object-fit: cover;
+        border-radius: 500px;
+    }
+    .about .about-content .left img{
+        height: 400px;
+        width: 400px;
+        object-fit: cover;
+        border-radius: 6px;
+    }
+}
+@media (max-width: 375px){
+    .home .left img{
+        margin-top: 20px;
+        margin-left: 25%;
+        height: 250px;
+        width: 250px;
+        object-fit: cover;
+        border-radius: 500px;
+    }
+   .about .about-content .left img{
+        height: 300px;
+        width: 300px;
+        object-fit: cover;
+        border-radius: 6px;
+    }
+}
+@media (max-width: 320px) {
+
+    .home .left img{
+        margin-top: 0px;
+        margin-left: 30%;
+        height: 180px;
+        width: 180px;
+        object-fit: cover;
+        border-radius: 500px;
+    }
+    .about .about-content .left img{
+        height: 280px;
+        width: 280px;
+        object-fit: cover;
+        border-radius: 6px;
+    }
+    .services .title::after,
+    .teams .title::after{
+    background: #111;
+    content: "";
+}
 }
