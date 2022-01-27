@@ -250,25 +250,25 @@
                         </div>
                     </div>
                 </div>
-                <div class="column right">
+                 <div class="column right">
                     <div class="text">Let's Talk!</div>
-                    <form action="#">
+                    <form method="post" action="">
                         <div class="fields">
                         <div class="field name">
-                        <input type="text" placeholder="Name" required>
+                        <input name="name" type="text" placeholder="Full Name" required name = "name">
                         </div>
                         <div class="field email">
-                        <input type="email" placeholder="Email" required>
+                        <input type="email" placeholder="Email" required name = "email">
                         </div>
                         </div>
                         <div class="field">
-                        <input type="text" placeholder="Subject" required>
+                        <input type="text" placeholder="Subject" required name ="subject">
                         </div>
                         <div class="field textarea">
-                        <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                        <textarea cols="30" rows="10" placeholder="Message.." required name = "message"></textarea>
                         </div>
                         <div class="button-area">
-                        <button type="submit">Send message</button>
+                        <button type="submit" name ="submit">Send message</button>
                         </div>
                     </form>
                 </div>
